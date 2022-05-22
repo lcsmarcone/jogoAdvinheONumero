@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link
+      rel="stylesheet"
+      href="/style.css"
+    />
+    <title>Adivinhe meu Número!</title>
+  </head>
+  <body>
+    <header>
+      <h1>Adivinhe meu Número!</h1>
+      <p class="entre">(Entre 1 e 20)</p>
+      <button class="bto novamente">Tente de Novo</button>
+      <div class="numero">?</div>
+    </header>
+    <main>
+      <section class="sessao-da-esquerda">
+        <input type="number" class="advinhe" />
+        <button class="bto confira">Confira!</button>
+      </section>
+      <section class="sessao-da-direita">
+        <p class="mensagem">Comece advinhando...</p>
+        <p class="rotulo-pontuacao">
+          💯 Pontuação: <span class="pontos">20</span>
+        </p>
+        <p class="rotulo-maior-recorde">
+          🥇 Recorde: <span class="recorde">0</span>
+        </p>
+      </section>
+    </main>
+    <script src="/script.js"></script>
+  </body>
+</html>
